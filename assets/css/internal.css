@@ -1,0 +1,102 @@
+@import url('reset.css');
+@import url('global.css');
+@import url('componentes/_navigator.css');
+@import url('componentes/_pills.css');
+@import url('componentes/_link-button.css');
+@import url('componentes/_galery.css');
+
+
+.d-wrapper {
+    display: flex;
+    height: 100vh;
+    flex-flow: row nowrap;
+    background-color: aqua;
+}    
+
+.d-wrapper video{
+    position: fixed;
+    width: 100%;
+}
+
+.d-wrapper .d-left-column {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    padding-right: 50px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.d-wrapper .d-main-content {
+    height: 100%;
+    width: 100%;
+    padding-left: 130px;
+    position: relative;
+}
+
+.d-wrapper .d-main-content__top {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.d-wrapper .d-main-content__bottom {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.d-wrapper .d-main-content .d-logo img {
+    margin-top: 20px;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+.d-wrapper .d-main-content__top .d-description {
+    background-color: rgba(0,0,0,.7);
+    max-width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.d-wrapper .d-main-content__top .d-description .d-description__text p {
+    color: white;
+    line-height: 170%;
+}
+
+.d-wrapper .d-main-content__top .d-description .pills {
+    margin-bottom: 20px;
+}
+
+.d-wrapper .d-main-content .d-links {
+    padding: 10px;
+    padding-left: 0;
+}
+
+
+.d-wrapper .d-main-content .d-links ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.d-dorama-01-01 {
+    background-image: url('../image/bussinesproposal1.png/movie-01/background.png');
+    background-size: cover;
+}
+
+
+.d-dorama-01-02 {
+    background-image: url('../image/loveftmarriege&divorce2.png/movie-02/background.png');
+    background-size: cover;
+}
+
+.d-dorama-01-03 {
+    background-image: url('../image/startup.png.webp/movie-03/background.png');
+    background-size: cover;
+}

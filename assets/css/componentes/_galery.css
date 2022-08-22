@@ -1,0 +1,24 @@
+.galery {
+    padding: 10px;
+    padding-left: 0;
+  }
+  
+  .galery ul {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .galery ul li {
+    margin-left: 15px;
+  }
+  
+  .galery ul li:first-child {
+    margin-left: 0px;
+  }
+  
+  .galery ul li a img {
+    border:solid 6px white;
+    border-radius: 10px;
+  }
+
+  

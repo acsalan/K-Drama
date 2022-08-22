@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/home-page-style.css">
+    <script src="./assets/scripts/script.js"></script>
+    <title>Dorama</title>
+</head>
+<body>
+
+   <nav class="d-menu">
+      <ul>
+        <li class="d-menu__item">
+          <a href="/">Página Inicial</a>
+        </li>
+        <li class="d-menu__item">
+          <a href="/pages/BussinesProposal/bussinesproposal.html">BussinesProposal</a> 
+        </li>  
+        <li class="d-menu__item d-menu__icon">
+          <img  src="/assets/image/icon-svg.png" alt="Dorama">
+        </li>
+        <li class="d-menu__item"> 
+          <a href="/pages/LoveftMarriege&Divorce/loveftmarriege&divorce.html">LoveftMarriege&Divorce</a>
+        </li>
+        <li class="d-menu__item">
+          <a href="/pages/StartUp/startup.html">Startup</a>
+        </li>  
+      </ul>    
+    </nav>
+
+        <div class="d-container">
+      <div class="d-cards-carousel" style="transform: translateZ(-40vw) rotateY(0deg);">
+        <a href="./pages/BussinesProposal/bussinesproposal.html" class="d-card" id="Bussinesproposal1">
+         <img class="d-card__background" src="./assets/image/bussinesproposal-pic-01.webp"> 
+        <img  class="d-card__image" src="./assets/image/bussinesproposal1.png" alt="BussinesProposal">
+        <h2 class="d-card__title">BussinesProposal</h2>
+        </a>   
+        <a  href="./pages/LoveftMarriege&Divorce/loveftmarriege&divorce.html" class="d-card" id="Loveftmarriege&divorce2">
+        <img class="d-card__background" src="./assets/image/loveftmarriege&divorce.pic-02.jpg">    
+        <img  class="d-card__image" src="./assets/image/loveftmarriege&divorce2.png" alt="LoveftMarriege&Divorce">
+        <h2 class="d-card__title">LoveftM&divorce</h2>
+        </a>    
+        <a href="./pages/StartUp/startup.html" class="d-card" id="StarUp3">
+        <img class="d-card__background" src="./assets/image/startup.pic-03.webp">  
+        <img class="d-card__image" src="./assets/image/startup3.png" alt="StartUp">
+        <h2 class="d-card__title">StartUp</h2>
+        </a>
+      </div>
+
+
+    </div>  
+    <div class="d-controller">
+      <div id="1" onclick="selectCarouselItem(this)" class="d-controller__button d-controller__button--active">
+        01
+    </div>
+    <div id="2" onclick="selectCarouselItem(this)" class="d-controller__button">
+        02
+    </div>
+    <div id="3" onclick="selectCarouselItem(this)" class="d-controller__button">
+        03
+    </div>
+
+
+    <div class="d-controller__line"></div>
+  </div>
+
+  
+</body>
+</html>
